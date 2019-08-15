@@ -5,6 +5,7 @@
 # required
 version: 2
 
+# conda setup
 conda:
   environment: .rtd_conda_env.yml
 
@@ -13,3 +14,9 @@ python:
   version: 3.7
   install:
     - requirements: .rtd_pip_reqs.txt
+
+# what to build
+formats:
+  - epub
+  - pdf
+  - htmlzip
