@@ -14,7 +14,7 @@ python:
   version: 3.7
   install:
     - requirements: .rtd_pip_reqs.txt
-    - method: setuptools
+    - method: pip
       path: .
 
 # what to build
