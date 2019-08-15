@@ -3,3 +3,7 @@ dependencies:
   - python=3.7
   - sphinx
   - pandoc
+  - pip
+  - pip:
+      - nbsphinx
+      - nbconvert
