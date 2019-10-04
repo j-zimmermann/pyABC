@@ -344,7 +344,7 @@ def plot_kde_matrix(df, w,
                     ymin=limits.get(y.name, default)[0],
                     ymax=limits.get(y.name, default)[1],
                     numx=numx, numy=numy,
-                    ax=ax, title=False, colorbar=colorbar,
+                    ax=ax, title=None, colorbar=colorbar,
                     refval=refval, kde=kde)
 
     def scatter(x, y, ax):
